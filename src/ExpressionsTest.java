@@ -28,7 +28,7 @@ public class ExpressionsTest {
         assert (v1.getVariables().size() == 1);
         assert (v2.getVariables().size() == 1);
         assert (v3.getVariables().size() == 1);
-
+ 
         assert (v1.getVariables().get(0).equals("x"));
         assert (v2.getVariables().get(0).equals("y"));
         assert (v3.getVariables().get(0).equals(""));
