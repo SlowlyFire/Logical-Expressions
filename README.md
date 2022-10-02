@@ -3,7 +3,17 @@ Logical Expressions, Nand and Nor Logic and Logical Simplification
 
 **In this project, we implement a system that can represent nested logical expressions that include variables, evaluate their values for specific variable assignments, convert them, and simplify the results.**  
 
-- in order to compile and run the program, **click here**.  
+
+<details>
+<summary> in order to compile and run the program <b>click here</b></summary>
+
+<img src="https://user-images.githubusercontent.com/83518959/193435458-cea77833-fcff-4a15-9879-52fc7493273a.png" width="770" height="430" />
+<img src="https://user-images.githubusercontent.com/83518959/193435538-0def6bdc-5ce8-4a91-aa21-b02555624537.png" width="770" height="430" />
+<img src="https://user-images.githubusercontent.com/83518959/193435542-07459e70-76d3-4bf3-83d8-010a05633e53.png" width="770" height="430" />
+<img src="https://user-images.githubusercontent.com/83518959/193435543-f44579c2-2365-4ec8-b4aa-b94e0dc9d6d8.png" width="770" height="430" />
+<img src="https://user-images.githubusercontent.com/83518959/193435546-0066b422-bbdb-4c86-ae70-630270671eab.png" width="470" height="430" />
+
+</details>  
 
 ## Logical Expressions:  
 **Our goal is to represent logical expressions such as:**    
