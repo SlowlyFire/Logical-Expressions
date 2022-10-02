@@ -26,16 +26,16 @@ We also have a Val(F) expression indicating the logical value "False".
 
 Assuming we represent each of the atomic expressions as a Class of the same name that takes its arguments in the constructor, we can create the expression above in java using:  
 
-![image](https://user-images.githubusercontent.com/83518959/193431728-57ffe935-4234-473d-9a83-890a93bcdc45.png)  
+<img src="https://user-images.githubusercontent.com/83518959/193431728-57ffe935-4234-473d-9a83-890a93bcdc45.png" width="470" height="400" />   
 
 The tree is given below:  
 
-![image](https://user-images.githubusercontent.com/83518959/193431738-fe390a72-aeb3-4fbd-9e9e-91c0f016ec65.png)  
+<img src="https://user-images.githubusercontent.com/83518959/193431738-fe390a72-aeb3-4fbd-9e9e-91c0f016ec65.png" width="400" height="450" />  
 
 Note that all the nodes in the tree are expressions (according to the Expression interface):  
 
-![image](https://user-images.githubusercontent.com/83518959/193431752-f23764f1-44ef-4c7f-bafd-0239724f51f1.png)  
-  
+<img src="https://user-images.githubusercontent.com/83518959/193431752-f23764f1-44ef-4c7f-bafd-0239724f51f1.png" width="400" height="450" />  
+
 Similarly, we could represent (x & y) ^ T as:  
 ![image](https://user-images.githubusercontent.com/83518959/193431787-de38309e-cb6c-4c48-bcd7-fa24176f2f94.png)  
 
@@ -50,11 +50,11 @@ Xnor(x,y) = (x # y)
 Not(x) = ~(x)  
 
 ## Class Hierarchy:  
-![image](https://user-images.githubusercontent.com/83518959/193432356-69f5772d-9b24-411e-98f0-f04de5bd0e3a.png)  
+<img src="https://user-images.githubusercontent.com/83518959/193432356-69f5772d-9b24-411e-98f0-f04de5bd0e3a.png" width="700" height="450" /> 
 
 ## Simplification:  
 
-Logical expression can be quite messy and contain many "redundant" parts. For example:  
+Logical expression can be quite messy and contain many "redundant" parts. For example:   
 ![image](https://user-images.githubusercontent.com/83518959/193432438-bdca9de0-2376-405c-ba68-1ea1ef119c16.png)  
 
 This is correct, but can be really hard to read. We need to "simplify" the expression to make it more friendly to humans.  
@@ -95,11 +95,4 @@ x # x = 1
 an expression without variables evaluates to its result. ((T & T) | F) ^ T => F.  
 
 Note that X here stands for any expression, not just a variable.  
-
-
-
-
-
-
-
 
